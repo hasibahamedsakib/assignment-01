@@ -155,3 +155,35 @@
 }
 
 /* Failures section End */
+
+/* My Plan Section start*/
+
+#my-plan > div {
+  padding-top: 0;
+}
+
+#my-plan h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.totalPlaning {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.totalPlaning div {
+  padding: 10px 10px;
+}
+
+.totalPlaning div h3 {
+  font-size: 26px;
+  padding: 20px 0;
+}
+.totalPlaning div p {
+  font-size: 22px;
+  color: #737272;
+  padding: 0 15px;
+}
+/* My Plan Section end*/
