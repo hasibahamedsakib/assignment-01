@@ -52,7 +52,7 @@
 }
 .btn-header:hover {
   color: #fff;
-  background-color: #005fac;
+  background-color: #002bac;
   border: 2px solid #fff;
 }
 
@@ -186,4 +186,35 @@
   color: #737272;
   padding: 0 15px;
 }
+
 /* My Plan Section end*/
+
+#positiveMind > div {
+  padding-top: 0;
+}
+.positive-content {
+  background-image: linear-gradient(
+      to right,
+      rgba(1, 67, 172, 0.933),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../images/watch.png");
+
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 60px;
+}
+.positive-content > h1 {
+  font-size: 40px;
+  width: 450px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Footer section start */
+#footer {
+  background-color: #151414;
+}
+/* Footer section End */
