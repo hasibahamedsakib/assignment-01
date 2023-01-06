@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
@@ -59,6 +60,10 @@
 
 /* Skils section start */
 
+#my-skil-section {
+  background: linear-gradient(to left, #00b4e9, #a5ccec);
+}
+
 .my-skils {
   display: flex;
   justify-content: space-between;
@@ -67,7 +72,7 @@
 .skil-title {
   text-align: center;
   font-size: 40px;
-  color: #696969;
+  color: #fff;
   margin-bottom: 50px;
 }
 
@@ -101,6 +106,52 @@
 
 .skil:hover {
   transform: scale(1.1);
-  box-shadow: 1px 3px 20px #005fac;
+  box-shadow: 2px 5px 20px #005fac;
 }
-/* Skils section End */ ;
+/* Skils section End */
+
+/* Failures section start */
+.failures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failures-img {
+  float: left;
+}
+
+.failures-content {
+  float: right;
+  padding: 20px;
+}
+
+.failures-content > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 25px 30px;
+  color: #151414;
+}
+
+.failures-content > p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding: 20px 30px;
+}
+
+.failures-content > ul li {
+  list-style: none;
+  padding: 0 30px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #444343;
+}
+
+.failures-content li > i {
+  color: rgb(68, 244, 82);
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Failures section End */
