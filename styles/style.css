@@ -14,6 +14,7 @@
   border: none;
   border-radius: 5px;
   font-weight: 600;
+  cursor: pointer;
 }
 /* Header section  Start*/
 
@@ -46,6 +47,60 @@
 
 .btn-header {
   color: #005fac;
+  transition: 0.3s;
+}
+.btn-header:hover {
+  color: #fff;
+  background-color: #005fac;
+  border: 2px solid #fff;
 }
 
 /* Header section End */
+
+/* Skils section start */
+
+.my-skils {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skil-title {
+  text-align: center;
+  font-size: 40px;
+  color: #696969;
+  margin-bottom: 50px;
+}
+
+.skil {
+  width: 400px;
+  background-color: #ecf3f8;
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skil img {
+  padding-top: 20px;
+}
+
+.skil > h3 {
+  font-size: 25px;
+  color: #626262;
+  padding: 15px 0;
+}
+
+.skil > p {
+  font-size: 18px;
+  color: #737373;
+  line-height: 30px;
+  padding: 10px 20px;
+  text-align: justify;
+}
+
+.skil:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 20px #005fac;
+}
+/* Skils section End */ ;
