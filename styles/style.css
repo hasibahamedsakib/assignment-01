@@ -112,6 +112,16 @@
   text-align: justify;
 }
 
+.skil > a {
+  text-decoration: none;
+  padding: 5px 20px;
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ac6565;
+}
+
 .skil:hover {
   transform: scale(1.1);
   box-shadow: 2px 5px 20px #005fac;
