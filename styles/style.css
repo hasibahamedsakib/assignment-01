@@ -1,3 +1,10 @@
+/*
+
+   Project: Assignment - 01;
+   Author: Hasib Ahamed Sakib;
+   Date: 07 - jan - 2023
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +24,8 @@
   font-weight: 600;
   cursor: pointer;
 }
-/* Header section  Start*/
+
+/* Header section Style Start*/
 
 #header-Section {
   background-image: url("../images/banner/banner3.png");
@@ -46,19 +54,19 @@
   padding-left: 50px;
 }
 
-.btn-header {
+.btn-primary {
   color: #005fac;
   transition: 0.3s;
 }
-.btn-header:hover {
+.btn-primary:hover {
   color: #fff;
   background-color: #002bac;
   border: 2px solid #fff;
 }
 
-/* Header section End */
+/* Header section Style End */
 
-/* Skils section start */
+/* Skils section Style start */
 
 #my-skil-section {
   background: linear-gradient(to left, #00b4e9, #a5ccec);
@@ -108,9 +116,9 @@
   transform: scale(1.1);
   box-shadow: 2px 5px 20px #005fac;
 }
-/* Skils section End */
+/* Skils section Style End */
 
-/* Failures section start */
+/* Failures section Style start */
 .failures {
   display: flex;
   justify-content: space-between;
@@ -154,9 +162,9 @@
   margin-right: 5px;
 }
 
-/* Failures section End */
+/* Failures section Style End */
 
-/* My Plan Section start*/
+/* My Plan Section Style start*/
 
 #my-plan > div {
   padding-top: 0;
@@ -187,7 +195,9 @@
   padding: 0 15px;
 }
 
-/* My Plan Section end*/
+/* My Plan Section Style end*/
+
+/* Positive Section Style Start */
 
 #positiveMind > div {
   padding-top: 0;
@@ -213,8 +223,73 @@
   margin-bottom: 20px;
 }
 
-/* Footer section start */
+/* Positive Section Style End */
+
+/* Footer section Style start */
+
 #footer {
   background-color: #151414;
 }
-/* Footer section End */
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: #fff;
+}
+
+.left-part {
+  width: 485px;
+}
+
+.left-part > h1 {
+  font-size: 45px;
+  color: #f8f8f8;
+  padding-bottom: 20px;
+}
+.left-part > p {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 10px 0;
+}
+
+.social-icon {
+  padding-top: 30px;
+}
+
+.social-icon > img {
+  margin-right: 15px;
+}
+
+.right-part {
+  width: 325px;
+}
+
+.right-part > h3 {
+  font-size: 25px;
+
+  padding-bottom: 30px;
+}
+
+.right-part input {
+  width: 100%;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid;
+  outline: none;
+  font-size: 18px;
+  color: #ecf3f8;
+}
+
+.right-part input::placeholder {
+  color: #f8f8f8;
+}
+
+.btn-sub {
+  background-color: #005fac;
+  color: #fff;
+}
+
+/* Footer section Style End */
